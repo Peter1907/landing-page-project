@@ -27,7 +27,7 @@ a:hover {
     background-color: #F9FAF8;
     color: #1F2937;
     border-radius: 10px;
-    font-weight: bolder;
+    font-weight: bold;  
 }
 
 h3 {
@@ -73,14 +73,19 @@ h1 {
     font-weight: 700;
     font-size: 18px;
     border: none;
-}        
+}
+
+.button:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
 
 .thor {
+    align-self: center;
     margin-left: auto;
     height: auto;
     max-width: 50%;
-    max-height: fit-content;
-    align-self: center;
+    border-radius: 20px;
 }
 
 /* section two elements */
@@ -104,11 +109,13 @@ h2 {
 }
 
 .card img {
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10px;
     min-width: 150px;
     min-height: 150px;
-    flex: 0;
+    max-height: 200px;
+    max-width: 200px;
+    flex: 1;
 }
 
 .card p {
@@ -131,19 +138,20 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 25%;
+    padding: 3% 25%;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     font-style: italic;
     padding: 0;
     margin: 0;
+    color: #1F2937;
 }
 
 .person {
-    font-weight: 900;
+    font-weight: 500;
     font-size: 24px;
     align-self: flex-end;
 }
@@ -168,6 +176,12 @@ h2 {
     color: #F9FAF8;
     font-weight: 700;
     font-size: 18px;
+}
+
+.sign:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    border-color: #3882F6;
 }
 
 .section-four .text h4 {
